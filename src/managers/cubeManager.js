@@ -1,9 +1,4 @@
-const uniqid = require('uniqid');
-const mongoose = require('mongoose');
-async function main() {
-await mongoose.connect('mongodb://127.0.0.1:27017/test');
-}
-main()
+const mongoose = require('mongoose')
 const cubeSchema = new mongoose.Schema({
     name: String,
     description: String,
